@@ -10,12 +10,14 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    /* background-color: rgb(239, 239, 235); */
 }
 
 #main {
     height: 100%;
     width: 100%;
     padding: 2vw;
+    gap: 4vw;
     display: flex;
     margin: 7.5vw 4vw;
     overflow: hidden;
@@ -92,26 +94,103 @@ body {
 
 #right {
     height: 80%;
-    width: 45%;
-    background-color: red;
-    overflow: hidden;
+    width: 30%;
+    position: relative;
+    /* background-color: red; */
+    /* overflow: hidden; */
 }
 
-
-#right-top{
-    height: 20%;
-    /* margin: 1vw 2vw; */
-    width: 100%;
-    background-color: blue;
+#right-top {
     display: flex;
     justify-content: space-between;
+    /* background-color: blue; */
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-#right-top h2{
- margin: 1vw 2vw;
- background-color: green;
- font-family: Arial, Helvetica, sans-serif;
- font-weight: 600;
+#right-top h2 {
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(58, 43, 43);
+    /* margin: 1vw 2vw; */
+    margin-bottom: 1vw;
+
 }
 #right-top h2 i{
-color: gold;
+    color: goldenrod;
+}
+#img-center{
+    height: 100%; 
+    width: 100%; 
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+#right-top h2 {
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(58, 43, 43);
+    /* margin: 1vw 2vw; */
+    margin-bottom: 1vw;
+
+}
+#right-top h2 i{
+    color: goldenrod;
+}
+#img-center{
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+#right-top h2 {
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(58, 43, 43);
+    /* margin: 1vw 2vw; */
+    margin-bottom: 1vw;
+
+}
+#right-top h2 i{
+    color: goldenrod;
+}
+#img-center{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+#img-center img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1vw;
+}
+
+
+#circle{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    height: 8vw; 
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(33, 36, 35);
+    z-index: 4;
+    /* background: green; */
+    border-radius: 50%;
+
+}
+#circle h2{
+    color:  rgb(204, 204, 217);
+
+
+}
+#bottom-tags{
+    position: absolute;
+    transform-origin: 0,0;
+    rotate: -90deg;
+    bottom: 10%;
+    left: -20%;
 }
