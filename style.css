@@ -102,12 +102,10 @@ h2 {
     height: 80%;
     width: 30%;
     position: relative;
-    /* background-color: red; */
-    /* overflow: hidden; */
 }
 
 #right-top {
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -133,8 +131,6 @@ h2 {
 #img-center {
     height: 100%;
     width: 100%;
-    /* position: relative; */
-    /* overflow: hidden; */
 }
 
 #right-top h2 {
